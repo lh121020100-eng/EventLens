@@ -1,0 +1,12 @@
+{
+  "name": "eventlens-investment-evidence",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "EventLens — investment event intelligence & evidence timeline MVP",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {"node": ">=20"}
+}
